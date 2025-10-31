@@ -7,13 +7,13 @@ This repository contains the mechanical design files for the **WujiHand** roboti
 │   ├── Impact-Resistant-Adapter.step      → Shock-Absorbing Adapter Mount
 │   └── Direct-Adapter-Mount.step        → Direct-Connect Adapter Mount
 │
-├── simplified-structural/    # Simplified structural frames (no soft goods)
+├── simplified-structural/    # Simplified structural frames (no softgoods)
 │   ├── WH_simplified_left_frame&temporarytips.step
 │   ├── WH_simplified_left_frameonly.step
 │   ├── WH_simplified_right_frame&temporarytips.step
 │   └── WH_simplified_right_frameonly.step
 │
-└── softgoods/                # Structural frames with integrated soft goods (e.g., pouch cells)
+└── softgoods/                # Structural frames with integrated softgoods (sponge)
     ├── WH_simplified_left_frame&softgoods.step
     └── WH_simplified_right_frame&softgoods.step
 ```
