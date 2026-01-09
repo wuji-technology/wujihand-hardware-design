@@ -1,21 +1,42 @@
 # wujihand-hardware-design
 
-This repository contains the mechanical design files for the **Wuji Hand** robotic hand hardware, organized by component type and assembly configuration. All models are provided in `.step` format for CAD compatibility and downstream manufacturing or simulation use. Assembly drawings (PDF) and installation guides are included where applicable.
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-```bash
-├── adapter # Adapter mounts for different connection types
-│   ├── Adapter-Installation-Instructions.md
-│   ├── Direct-Adapter-Mount.step     # Direct-Connect Adapter Mount
-│   ├── Impact-Resistant-Adapter.step    # Shock-Absorbing Adapter Mount
-│   ├── wuji-hand&Direct-Adapter-assembled-v1.pdf
-│   └── wuji-hand&Impact-Resistant-Adapter-assembled-v1.pdf
-├── README.md
-├── simplified-structural     # Simplified structural frames (no softgoods)
-│   ├── WH_simplified_left_frame&temporarytips.step
-│   ├── WH_simplified_left_frameonly.step
-│   ├── WH_simplified_right_frame&temporarytips.step
-│   └── WH_simplified_right_frameonly.step
-└── softgoods      # Structural frames with integrated softgoods (sponge)
-    ├── WH_simplified_left_frame&softgoods.step
-    └── WH_simplified_right_frame&softgoods.step
-```
+  Hardware design file repository for Wuji Hand. This repository contains mechanical CAD files organized by component type and assembly configuration, including adapter mounts, structural frames, and softgoods. All models are provided in STEP format for CAD compatibility and downstream manufacturing or simulation use. Assembly drawings (PDF) and installation guides are included where applicable.
+
+  ## Table of Contents
+
+  - [Repository Structure](#repository-structure)
+  - [Contact](#contact)
+
+  ## Repository Structure
+
+  ```text
+  ├── adapter/
+  │   ├── Adapter-Installation-Instructions.md
+  │   ├── Direct-Adapter-Mount.step
+  │   ├── Impact-Resistant-Adapter.step
+  │   ├── wuji-hand&Direct-Adapter-assembled-v1.pdf
+  │   └── wuji-hand&Impact-Resistant-Adapter-assembled-v1.pdf
+  ├── simplified-structural/
+  │   ├── WH_simplified_left_frame&temporarytips.step
+  │   ├── WH_simplified_left_frameonly.step
+  │   ├── WH_simplified_right_frame&temporarytips.step
+  │   └── WH_simplified_right_frameonly.step
+  ├── softgoods/
+  │   ├── WH_simplified_left_frame&softgoods.step
+  │   └── WH_simplified_right_frame&softgoods.step
+  └── README.md
+  ```
+
+  ### Directory Description
+
+  | Directory | Description |
+  |-----------|-------------|
+  | `adapter/` | Adapter mounts for different connection types, including direct-connect and shock-absorbing variants, with assembly drawings (PDF) and installation instructions |
+  | `simplified-structural/` | Simplified structural frames without integrated softgoods, available in left and right configurations with optional temporary tips |
+  | `softgoods/` | Structural frames with integrated softgoods (sponge), available in left and right configurations |
+
+  ## Contact
+
+  For any questions, please contact support@wuji.tech.
