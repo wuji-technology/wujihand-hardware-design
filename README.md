@@ -39,4 +39,4 @@
 
   ## Contact
 
-  For any questions, please contact support@wuji.tech.
+  For any questions, please contact [support@wuji.tech](mailto:support@wuji.tech).
