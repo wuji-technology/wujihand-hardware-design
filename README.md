@@ -1,6 +1,7 @@
 # wujihand-hardware-design
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+  [![Release](https://img.shields.io/github/v/release/wuji-technology/wujihand-hardware-design)](https://github.com/wuji-technology/wujihand-hardware-design/releases)
 
   Hardware design file repository for Wuji Hand. This repository contains mechanical CAD files organized by component type and assembly configuration, including adapter mounts, structural frames, and softgoods. All models are provided in STEP format for CAD compatibility and downstream manufacturing or simulation use. Assembly drawings (PDF) and installation guides are included where applicable.
 
