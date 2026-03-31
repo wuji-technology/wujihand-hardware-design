@@ -4,6 +4,8 @@
 
   Hardware design file repository for Wuji Hand. This repository contains mechanical CAD files organized by component type and assembly configuration, including adapter mounts, structural frames, and softgoods. All models are provided in STEP format for CAD compatibility and downstream manufacturing or simulation use. Assembly drawings (PDF) and installation guides are included where applicable.
 
+  > For product specifications and assembly guide, see [Wuji Hand Overview](https://docs.wuji.technology/docs/en/wuji-hand/latest/overview/).
+
   ## Table of Contents
 
   - [Repository Structure](#repository-structure)
