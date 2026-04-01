@@ -39,10 +39,6 @@ cd wujihand-hardware-design
 
 Open any `.step` file in your preferred CAD software (SolidWorks, Fusion 360, FreeCAD, etc.). Refer to `adapter/Adapter-Installation-Instructions.md` for adapter assembly guidance.
 
-## Appendix
-
-- **Documentation**: [Wuji Hand Overview](https://docs.wuji.tech/docs/en/wuji-hand/latest/overview/)
-
 ## Contact
 
 For any questions, please contact [support@wuji.tech](mailto:support@wuji.tech).
