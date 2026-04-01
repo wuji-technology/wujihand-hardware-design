@@ -1,44 +1,48 @@
 # wujihand-hardware-design
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-  Hardware design file repository for Wuji Hand. This repository contains mechanical CAD files organized by component type and assembly configuration, including adapter mounts, structural frames, and softgoods. All models are provided in STEP format for CAD compatibility and downstream manufacturing or simulation use. Assembly drawings (PDF) and installation guides are included where applicable.
+Hardware design file repository for Wuji Hand. This repository contains mechanical CAD files organized by component type and assembly configuration, including adapter mounts, structural frames, and softgoods. All models are provided in STEP format for CAD compatibility and downstream manufacturing or simulation use.
 
-  > For product specifications and assembly guide, see [Wuji Hand Overview](https://docs.wuji.technology/docs/en/wuji-hand/latest/overview/).
+**Get started with [Quick Start](#quick-start). For detailed documentation, please refer to [Wuji Hand Overview](https://docs.wuji.tech/docs/en/wuji-hand/latest/overview/) on Wuji Docs Center.**
 
-  ## Table of Contents
+## Repository Structure
 
-  - [Repository Structure](#repository-structure)
-  - [Contact](#contact)
+```text
+├── adapter/                     // Adapter mounts with assembly drawings and installation guide
+│   ├── Adapter-Installation-Instructions.md
+│   ├── Direct-Adapter-Mount.step
+│   ├── Impact-Resistant-Adapter.step
+│   ├── wuji-hand&Direct-Adapter-assembled-v1.pdf
+│   └── wuji-hand&Impact-Resistant-Adapter-assembled-v1.pdf
+├── simplified-structural/       // Simplified structural frames (left/right, with/without temporary tips)
+│   ├── WH_simplified_left_frame&temporarytips.step
+│   ├── WH_simplified_left_frameonly.step
+│   ├── WH_simplified_right_frame&temporarytips.step
+│   └── WH_simplified_right_frameonly.step
+├── softgoods/                   // Structural frames with integrated softgoods (left/right)
+│   ├── WH_simplified_left_frame&softgoods.step
+│   └── WH_simplified_right_frame&softgoods.step
+└── README.md
+```
 
-  ## Repository Structure
+## Quick Start
 
-  ```text
-  ├── adapter/
-  │   ├── Adapter-Installation-Instructions.md
-  │   ├── Direct-Adapter-Mount.step
-  │   ├── Impact-Resistant-Adapter.step
-  │   ├── wuji-hand&Direct-Adapter-assembled-v1.pdf
-  │   └── wuji-hand&Impact-Resistant-Adapter-assembled-v1.pdf
-  ├── simplified-structural/
-  │   ├── WH_simplified_left_frame&temporarytips.step
-  │   ├── WH_simplified_left_frameonly.step
-  │   ├── WH_simplified_right_frame&temporarytips.step
-  │   └── WH_simplified_right_frameonly.step
-  ├── softgoods/
-  │   ├── WH_simplified_left_frame&softgoods.step
-  │   └── WH_simplified_right_frame&softgoods.step
-  └── README.md
-  ```
+### Installation
 
-  ### Directory Description
+```bash
+git clone https://github.com/wuji-technology/wujihand-hardware-design.git
+cd wujihand-hardware-design
+```
 
-  | Directory | Description |
-  |-----------|-------------|
-  | `adapter/` | Adapter mounts for different connection types, including direct-connect and shock-absorbing variants, with assembly drawings (PDF) and installation instructions |
-  | `simplified-structural/` | Simplified structural frames without integrated softgoods, available in left and right configurations with optional temporary tips |
-  | `softgoods/` | Structural frames with integrated softgoods (sponge), available in left and right configurations |
+### Running
 
-  ## Contact
+Open any `.step` file in your preferred CAD software (SolidWorks, Fusion 360, FreeCAD, etc.). Refer to `adapter/Adapter-Installation-Instructions.md` for adapter assembly guidance.
 
-  For any questions, please contact [support@wuji.tech](mailto:support@wuji.tech).
+## Appendix
+
+- **Documentation**: [Wuji Hand Overview](https://docs.wuji.tech/docs/en/wuji-hand/latest/overview/)
+
+## Contact
+
+For any questions, please contact [support@wuji.tech](mailto:support@wuji.tech).
