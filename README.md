@@ -37,7 +37,7 @@ cd wujihand-hardware-design
 
 ### Running
 
-Open any `.step` file in your preferred CAD software (SolidWorks, Fusion 360, FreeCAD, etc.). Refer to `adapter/Adapter-Installation-Instructions.md` for adapter assembly guidance.
+Open any `.step` file in your preferred CAD software (SolidWorks, Fusion 360, FreeCAD, etc.). Refer to `adapter/Adapter-Installation-Instructions.md` for adapter installation instructions.
 
 ## Contact
 
